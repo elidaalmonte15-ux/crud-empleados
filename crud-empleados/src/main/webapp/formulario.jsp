@@ -50,27 +50,28 @@ para recibir los datos del formulario -->
 			<label for="primerApellido">primer Apellido</label> <input
 				id="primerApellido" name="primer Apellido"type="text"> title="se solicita prime
 			apellido" <label for=>Segundo Apellido:</label>bel <input
-				id="SegundoApellido" type="text" placeholder="no es obligatorio">
-			<label for="fechaAlta">fecha de Alta:</label> <input id="fechaALTA:"
+				id="SegundoApellido" name="segundoApellido" type="text" placeholder="no es obligatorio">
+			<label for="fechaAlta">fecha de Alta:</label> <input id="fechaALTA:" name="fechaAlta"
 				type="date"> <label for="Salario">Salario: </label> <input
-				id="Salario" type="text">
+				id="Salario" name="salario" type="text">
 			<fieldset>
 				<legend>genero</legend>
 
 				<label for="hombre">Hombre</label> <input id="hombre" type="radio"
-					name="genero"> <label for="mujer">Mujer</label> <input
-					id="mujer" type="radio" name="genero"> <label for="otro">Otro</label>
-				<input id="otro" type="radio" name="genero">
+					name="genero"value="HOMBRE"> <label for="mujer">Mujer</label> <input
+					id="mujer" type="radio" name="genero"value="MUJER"> <label for="otro">Otro</label>
+				<input id="otro" type="radio" name="genero"value="otro">
 
 			</fieldset>
 			<label for="foto">Foto del empleado: </label> <input id="foto"
 				type="file"> <label for="dpto">departamento:</label> <select
-				id="dpto">
-				<option value=""></option>
+				id="dpto"name="dtpo">
+				<option ></option>
 				<option value="1">RRHH</option>
 				<option value="2">Informatica</option>
 				<option value="3">contabilidad</option>
-			</select> <label for="telefonos">telefono(s):</label> <input id="telefonos"
+			</select> 
+			<label for="telefonos">telefono(s):</label> <input id="telefonos"
 				type="text" placeholder="uno o varios, separado por;"
 				title="uno o varios telefonos separados por el punto y la coma">
 
